@@ -1,0 +1,112 @@
+landscapes {
+ "double_well_GD_from_start": {
+  "-2.0": [
+   -1.300839565941578,
+   -3.51390503893479
+  ],
+  "-0.2": [
+   -1.3008395659415766,
+   -3.5139050389347894
+  ],
+  "0.3": [
+   1.1309011226299848,
+   -1.070230181776154
+  ],
+  "2.0": [
+   1.130901122629987,
+   -1.0702301817761544
+  ]
+ },
+ "saddle": {
+  "GD_exact_axis_start(1,0)": [
+   [
+    3.507466211043411e-49,
+    0.0
+   ],
+   1.2302319221611222e-97
+  ],
+  "GD_perturbed_start(1,1e-6)": [
+   [
+    3.507466211043411e-49,
+    1.414213562373095
+   ],
+   -0.9999999999999999
+  ],
+  "Newton_from_(1,0.5)": [
+   [
+    0.0,
+    2.3431048903422083e-19
+   ],
+   -5.490140527145572e-38
+  ],
+  "Newton_from_(0.5,0.1)_(near saddle)": [
+   [
+    0.0,
+    0.0
+   ],
+   0.0
+  ],
+  "Adam_exact_axis_start": [
+   [
+    4.1650484830801775e-19,
+    0.0
+   ],
+   1.7347628866408488e-37
+  ]
+ }
+}
+rates
+{'kappa': 2, 'empirical_rate_per_iter': np.float64(0.11111111111111127), 'theoretical': 0.1111111111111111}
+{'kappa': 10, 'empirical_rate_per_iter': np.float64(0.6694214876033057), 'theoretical': 0.6694214876033059}
+{'kappa': 100, 'empirical_rate_per_iter': np.float64(0.960788158023723), 'theoretical': 0.9607881580237231}
+{'kappa': 'convex x^4 (not strongly)', 'empirical_rate_per_iter': 'f_k ~ k^-1.98 (sublinear)', 'theoretical': 'upper bound O(1/k); x^4 is flatter than worst case so observed decay is faster'}
+{'kappa': 'nonconvex Rosenbrock', 'empirical_rate_per_iter': 'min||grad|| at k=100: 1.84, k=20000: 8.81e-06', 'theoretical': 'only min_k||g||=O(1/sqrt k); no global guarantee'}
+benchmark
+{'problem': 'quadratic_kappa100', 'method': 'GD', 'best_lr': '0.01', 'best_lr_at_grid_edge': False, 'final_gap': '0.00317', 'runtime_s': '0.00247', 'lr_values_reaching_90pct_gap_reduction': 5, 'n_lr': 15, 'evals': 300}
+{'problem': 'quadratic_kappa100', 'method': 'Momentum', 'best_lr': '0.01', 'best_lr_at_grid_edge': False, 'final_gap': '3.76e-12', 'runtime_s': '0.00279', 'lr_values_reaching_90pct_gap_reduction': 8, 'n_lr': 15, 'evals': 300}
+{'problem': 'quadratic_kappa100', 'method': 'NAG', 'best_lr': '0.00316', 'best_lr_at_grid_edge': False, 'final_gap': '5.61e-17', 'runtime_s': '0.00314', 'lr_values_reaching_90pct_gap_reduction': 7, 'n_lr': 15, 'evals': 300}
+{'problem': 'quadratic_kappa100', 'method': 'AdaGrad', 'best_lr': '1', 'best_lr_at_grid_edge': False, 'final_gap': '3.14e-06', 'runtime_s': '0.00319', 'lr_values_reaching_90pct_gap_reduction': 8, 'n_lr': 15, 'evals': 300}
+{'problem': 'quadratic_kappa100', 'method': 'RMSProp', 'best_lr': '0.01', 'best_lr_at_grid_edge': False, 'final_gap': '0.0185', 'runtime_s': '0.00357', 'lr_values_reaching_90pct_gap_reduction': 5, 'n_lr': 15, 'evals': 300}
+{'problem': 'quadratic_kappa100', 'method': 'Adam', 'best_lr': '0.316', 'best_lr_at_grid_edge': False, 'final_gap': '6.08e-13', 'runtime_s': '0.00454', 'lr_values_reaching_90pct_gap_reduction': 10, 'n_lr': 15, 'evals': 300}
+{'problem': 'quadratic_kappa100', 'method': 'Newton(+linesearch)', 'best_lr': '-', 'final_gap': '1.26e-29', 'runtime_s': '3.13e-05', 'best_lr_at_grid_edge': '-', 'lr_values_reaching_90pct_gap_reduction': '-', 'n_lr': '-', 'evals': 1}
+{'problem': 'quadratic_kappa100', 'method': 'Newton-CG (HVP only)', 'best_lr': '-', 'final_gap': '1.32e-24', 'runtime_s': '0.000242', 'best_lr_at_grid_edge': '-', 'lr_values_reaching_90pct_gap_reduction': '-', 'n_lr': '-', 'evals': 2}
+{'problem': 'rosenbrock', 'method': 'GD', 'best_lr': '0.001', 'best_lr_at_grid_edge': False, 'final_gap': '0.00376', 'runtime_s': '0.0325', 'lr_values_reaching_90pct_gap_reduction': 4, 'n_lr': 15, 'evals': 5000}
+{'problem': 'rosenbrock', 'method': 'Momentum', 'best_lr': '0.00316', 'best_lr_at_grid_edge': False, 'final_gap': '1.24e-30', 'runtime_s': '0.0438', 'lr_values_reaching_90pct_gap_reduction': 6, 'n_lr': 15, 'evals': 5000}
+{'problem': 'rosenbrock', 'method': 'NAG', 'best_lr': '0.001', 'best_lr_at_grid_edge': False, 'final_gap': '1.38e-19', 'runtime_s': '0.0435', 'lr_values_reaching_90pct_gap_reduction': 5, 'n_lr': 15, 'evals': 5000}
+{'problem': 'rosenbrock', 'method': 'AdaGrad', 'best_lr': '1', 'best_lr_at_grid_edge': False, 'final_gap': '6.88e-05', 'runtime_s': '0.0461', 'lr_values_reaching_90pct_gap_reduction': 5, 'n_lr': 15, 'evals': 5000}
+{'problem': 'rosenbrock', 'method': 'RMSProp', 'best_lr': '0.001', 'best_lr_at_grid_edge': False, 'final_gap': '0.00031', 'runtime_s': '0.0462', 'lr_values_reaching_90pct_gap_reduction': 7, 'n_lr': 15, 'evals': 5000}
+{'problem': 'rosenbrock', 'method': 'Adam', 'best_lr': '0.0316', 'best_lr_at_grid_edge': False, 'final_gap': '1.69e-27', 'runtime_s': '0.0569', 'lr_values_reaching_90pct_gap_reduction': 9, 'n_lr': 15, 'evals': 5000}
+{'problem': 'rosenbrock', 'method': 'Newton(+linesearch)', 'best_lr': '-', 'final_gap': '0', 'runtime_s': '0.000367', 'best_lr_at_grid_edge': '-', 'lr_values_reaching_90pct_gap_reduction': '-', 'n_lr': '-', 'evals': 22}
+{'problem': 'rosenbrock', 'method': 'Newton-CG (HVP only)', 'best_lr': '-', 'final_gap': '3.29e-21', 'runtime_s': '0.00105', 'best_lr_at_grid_edge': '-', 'lr_values_reaching_90pct_gap_reduction': '-', 'n_lr': '-', 'evals': 22}
+{'problem': 'logreg_breast_cancer', 'method': 'GD', 'best_lr': '10', 'best_lr_at_grid_edge': False, 'final_gap': '5.88e-07', 'runtime_s': '0.0248', 'lr_values_reaching_90pct_gap_reduction': 6, 'n_lr': 15, 'evals': 300}
+{'problem': 'logreg_breast_cancer', 'method': 'Momentum', 'best_lr': '3.16', 'best_lr_at_grid_edge': False, 'final_gap': '1.8e-13', 'runtime_s': '0.0258', 'lr_values_reaching_90pct_gap_reduction': 8, 'n_lr': 15, 'evals': 300}
+{'problem': 'logreg_breast_cancer', 'method': 'NAG', 'best_lr': '3.16', 'best_lr_at_grid_edge': False, 'final_gap': '3.51e-15', 'runtime_s': '0.0243', 'lr_values_reaching_90pct_gap_reduction': 8, 'n_lr': 15, 'evals': 300}
+{'problem': 'logreg_breast_cancer', 'method': 'AdaGrad', 'best_lr': '1', 'best_lr_at_grid_edge': False, 'final_gap': '0.000142', 'runtime_s': '0.0245', 'lr_values_reaching_90pct_gap_reduction': 6, 'n_lr': 15, 'evals': 300}
+{'problem': 'logreg_breast_cancer', 'method': 'RMSProp', 'best_lr': '0.01', 'best_lr_at_grid_edge': False, 'final_gap': '3.62e-05', 'runtime_s': '0.0252', 'lr_values_reaching_90pct_gap_reduction': 6, 'n_lr': 15, 'evals': 300}
+{'problem': 'logreg_breast_cancer', 'method': 'Adam', 'best_lr': '1', 'best_lr_at_grid_edge': False, 'final_gap': '2.69e-13', 'runtime_s': '0.026', 'lr_values_reaching_90pct_gap_reduction': 7, 'n_lr': 15, 'evals': 300}
+{'problem': 'logreg_breast_cancer', 'method': 'Newton(+linesearch)', 'best_lr': '-', 'final_gap': '0', 'runtime_s': '0.00266', 'best_lr_at_grid_edge': '-', 'lr_values_reaching_90pct_gap_reduction': '-', 'n_lr': '-', 'evals': 10}
+{'problem': 'logreg_breast_cancer', 'method': 'Newton-CG (HVP only)', 'best_lr': '-', 'final_gap': '-2.78e-17', 'runtime_s': '0.162', 'best_lr_at_grid_edge': '-', 'lr_values_reaching_90pct_gap_reduction': '-', 'n_lr': '-', 'evals': 100}
+noise floor {'const lr=0.05': 0.1420844671940282, 'decay lr=0.5/(1+0.05t)': 0.008690377153490513}
+{'l2': 0.0, 'train_loss_incl_reg': np.float64(0.011665874684774436), 'train_acc': np.float64(0.998), 'test_acc_mean': np.float64(0.9498), 'test_acc_std': np.float64(0.005153639490690055), 'weight_norm': np.float64(45.31908322176815), 'seeds': 5}
+{'l2': 0.001, 'train_loss_incl_reg': np.float64(0.12787628170624016), 'train_acc': np.float64(0.9833333333333332), 'test_acc_mean': np.float64(0.9635999999999999), 'test_acc_std': np.float64(0.0008000000000000007), 'weight_norm': np.float64(10.239138054843142), 'seeds': 5}
+{'l2': 0.01, 'train_loss_incl_reg': np.float64(0.3402209143010405), 'train_acc': np.float64(0.86), 'test_acc_mean': np.float64(0.8772), 'test_acc_std': np.float64(0.02040000000000002), 'weight_norm': np.float64(3.1883590575074257), 'seeds': 5}
+{'l2': 0.1, 'train_loss_incl_reg': np.float64(0.5601053208070148), 'train_acc': np.float64(0.8266666666666665), 'test_acc_mean': np.float64(0.8187999999999999), 'test_acc_std': np.float64(0.00040000000000000034), 'weight_norm': np.float64(1.726061414762968), 'seeds': 5}
+{'gauss_newton': {'final': 0.004870010328437049, 'iters_to_1e6': 3, 'params': [2.001921293924565, -1.30659285138197]}, 'newton': {'final': 0.004870010328437041, 'iters_to_1e6': 3, 'params': [2.0019212929729258, -1.3065928506998148]}, 'gd_tuned_lr': {'final_loss_after_20_iters': 0.004878613767282806, 'final_loss_after_2000_iters': 0.004870010328437051}, 'LM_lam1e3_final': 0.004870010328437049, 'noise_sd': 0.02, 'note': 'small-residual problem: GN ~ Newton here; GN can fail when residuals are large', 'true_params': [2.0, -1.3]}
+curvature {
+ "hvp_error_fd_vs_exact": 9.64917908993908e-11,
+ "true_Fisher_vs_Hessian_(l2 removed)_rel_err": 1.638838002085513e-17,
+ "empirical_Fisher_vs_true_Fisher_rel_err": 0.6426919145915498,
+ "diag_approx_rel_err": 0.8691720922085246,
+ "condition_number_H": 494.315565928943,
+ "lowrank_1_rel_err": 0.5810261552167517,
+ "lowrank_3_rel_err": 0.3711309448383642,
+ "lowrank_5_rel_err": 0.21040486879499187,
+ "lowrank_10_rel_err": 0.0616671719757491,
+ "gap_after_60_iters": {
+  "plain_GD": 0.0029850778781451565,
+  "diagonal_Hessian_precond": 0.0010958127315937038,
+  "diagonal_empirical_Fisher_precond": 0.0003429588280353599,
+  "Newton": 0.0
+ }
+}
+total 40s

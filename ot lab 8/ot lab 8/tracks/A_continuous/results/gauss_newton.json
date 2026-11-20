@@ -1,0 +1,29 @@
+{
+ "gauss_newton": {
+  "final": 0.004870010328437049,
+  "iters_to_1e6": 3,
+  "params": [
+   2.001921293924565,
+   -1.30659285138197
+  ]
+ },
+ "newton": {
+  "final": 0.004870010328437041,
+  "iters_to_1e6": 3,
+  "params": [
+   2.0019212929729258,
+   -1.3065928506998148
+  ]
+ },
+ "gd_tuned_lr": {
+  "final_loss_after_20_iters": 0.004878613767282806,
+  "final_loss_after_2000_iters": 0.004870010328437051
+ },
+ "LM_lam1e3_final": 0.004870010328437049,
+ "noise_sd": 0.02,
+ "note": "small-residual problem: GN ~ Newton here; GN can fail when residuals are large",
+ "true_params": [
+  2.0,
+  -1.3
+ ]
+}

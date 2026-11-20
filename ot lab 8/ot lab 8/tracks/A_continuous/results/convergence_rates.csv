@@ -1,0 +1,6 @@
+kappa,empirical_rate_per_iter,theoretical
+2,0.11111111111111127,0.1111111111111111
+10,0.6694214876033057,0.6694214876033059
+100,0.960788158023723,0.9607881580237231
+convex x^4 (not strongly),f_k ~ k^-1.98 (sublinear),upper bound O(1/k); x^4 is flatter than worst case so observed decay is faster
+nonconvex Rosenbrock,"min||grad|| at k=100: 1.84, k=20000: 8.81e-06",only min_k||g||=O(1/sqrt k); no global guarantee

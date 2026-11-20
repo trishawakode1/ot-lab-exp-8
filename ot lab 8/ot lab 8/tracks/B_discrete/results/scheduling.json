@@ -1,0 +1,47 @@
+{
+ "instances": 200,
+ "machines": 3,
+ "jobs": 10,
+ "lpt_over_opt_mean": 1.0250925768404047,
+ "lpt_over_opt_max": 1.1428571428571428,
+ "fraction_lpt_optimal": 0.41,
+ "theoretical_bound": 1.222222222222222,
+ "worst_case_instance_m2": {
+  "lpt": 7.0,
+  "opt": 6.0,
+  "ratio": 1.1666666666666667,
+  "bound": 1.1666666666666665
+ },
+ "scaling": [
+  {
+   "n": 20,
+   "m": 4,
+   "lpt": 251.0,
+   "ilp": 248.0,
+   "ilp_proven_optimal": true,
+   "lower_bound": 248.0,
+   "t_lpt": 2.5780999976632302e-05,
+   "t_ilp": 0.08411886600003982
+  },
+  {
+   "n": 40,
+   "m": 5,
+   "lpt": 379.0,
+   "ilp": 379.0,
+   "ilp_proven_optimal": true,
+   "lower_bound": 378.8,
+   "t_lpt": 4.244800004471472e-05,
+   "t_ilp": 0.27267038599995885
+  },
+  {
+   "n": 80,
+   "m": 8,
+   "lpt": 514.0,
+   "ilp": 511.0,
+   "ilp_proven_optimal": true,
+   "lower_bound": 510.875,
+   "t_lpt": 7.885399998031062e-05,
+   "t_ilp": 3.399203053000008
+  }
+ ]
+}

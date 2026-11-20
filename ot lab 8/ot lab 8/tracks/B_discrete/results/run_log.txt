@@ -1,0 +1,234 @@
+uncorr n=  20 DP (exact)              gap med/max=0.000/0.000% t med/max=    0.08/    0.13ms nodes= proven=1.0
+uncorr n=  20 greedy ratio            gap med/max=1.016/2.157% t med/max=    0.01/    0.01ms nodes= proven=0.0
+uncorr n=  20 greedy+best single      gap med/max=1.016/2.157% t med/max=    0.01/    0.02ms nodes= proven=0.0
+uncorr n=  20 Branch&Bound (3M-node cap) gap med/max=0.000/0.000% t med/max=    0.09/    0.10ms nodes=54 proven=1.0
+uncorr n=  20 ILP (HiGHS)             gap med/max=0.000/0.000% t med/max=    4.68/    5.78ms nodes= proven=1.0
+uncorr n=  60 DP (exact)              gap med/max=0.000/0.000% t med/max=    0.29/    0.36ms nodes= proven=1.0
+uncorr n=  60 greedy ratio            gap med/max=0.215/0.280% t med/max=    0.01/    0.02ms nodes= proven=0.0
+uncorr n=  60 greedy+best single      gap med/max=0.215/0.280% t med/max=    0.02/    0.03ms nodes= proven=0.0
+uncorr n=  60 Branch&Bound (3M-node cap) gap med/max=0.000/0.000% t med/max=    0.39/    0.46ms nodes=151 proven=1.0
+uncorr n=  60 ILP (HiGHS)             gap med/max=0.000/0.000% t med/max=    9.16/   12.22ms nodes= proven=1.0
+uncorr n= 200 DP (exact)              gap med/max=0.000/0.000% t med/max=    2.22/    2.54ms nodes= proven=1.0
+uncorr n= 200 greedy ratio            gap med/max=0.059/0.118% t med/max=    0.05/    0.07ms nodes= proven=0.0
+uncorr n= 200 greedy+best single      gap med/max=0.059/0.118% t med/max=    0.07/    0.09ms nodes= proven=0.0
+uncorr n= 200 Branch&Bound (3M-node cap) gap med/max=0.000/0.000% t med/max=    3.30/    4.13ms nodes=398 proven=1.0
+uncorr n= 200 ILP (HiGHS)             gap med/max=0.000/0.000% t med/max=   26.25/   66.95ms nodes= proven=1.0
+uncorr n=1000 DP (exact)              gap med/max=0.000/0.000% t med/max=   45.20/   49.74ms nodes= proven=1.0
+uncorr n=1000 greedy ratio            gap med/max=0.010/0.027% t med/max=    0.24/    0.44ms nodes= proven=0.0
+uncorr n=1000 greedy+best single      gap med/max=0.010/0.027% t med/max=    0.24/    0.45ms nodes= proven=0.0
+uncorr n=1000 Branch&Bound (3M-node cap) gap med/max=0.000/0.000% t med/max=   87.92/   92.19ms nodes=1828 proven=1.0
+uncorr n=1000 ILP (HiGHS)             gap med/max=0.000/0.000% t med/max=  213.49/  264.80ms nodes= proven=1.0
+strong n=  20 DP (exact)              gap med/max=0.000/0.000% t med/max=    0.09/    0.13ms nodes= proven=1.0
+strong n=  20 greedy ratio            gap med/max=2.471/9.278% t med/max=    0.01/    0.01ms nodes= proven=0.0
+strong n=  20 greedy+best single      gap med/max=2.471/9.278% t med/max=    0.01/    0.01ms nodes= proven=0.0
+strong n=  20 Branch&Bound (3M-node cap) gap med/max=0.000/0.000% t med/max=    0.17/    4.33ms nodes=191 proven=1.0
+strong n=  20 ILP (HiGHS)             gap med/max=0.000/0.000% t med/max=   17.48/   22.77ms nodes= proven=1.0
+strong n=  60 DP (exact)              gap med/max=0.000/0.000% t med/max=    0.36/    0.39ms nodes= proven=1.0
+strong n=  60 greedy ratio            gap med/max=2.660/3.537% t med/max=    0.02/    0.03ms nodes= proven=0.0
+strong n=  60 greedy+best single      gap med/max=2.660/3.537% t med/max=    0.02/    0.03ms nodes= proven=0.0
+strong n=  60 Branch&Bound (3M-node cap) gap med/max=0.000/0.000% t med/max=  228.19/ 3968.71ms nodes=221033 proven=0.6
+strong n=  60 ILP (HiGHS)             gap med/max=0.000/0.000% t med/max=   11.74/   38.45ms nodes= proven=1.0
+strong n= 200 DP (exact)              gap med/max=0.000/0.000% t med/max=    1.99/    2.99ms nodes= proven=1.0
+strong n= 200 greedy ratio            gap med/max=0.467/1.002% t med/max=    0.04/    0.05ms nodes= proven=0.0
+strong n= 200 greedy+best single      gap med/max=0.467/1.002% t med/max=    0.04/    0.05ms nodes= proven=0.0
+strong n= 200 Branch&Bound (3M-node cap) gap med/max=0.000/0.000% t med/max= 2077.97/ 2136.08ms nodes=3000133 proven=0.4
+strong n= 200 ILP (HiGHS)             gap med/max=0.000/0.000% t med/max=    6.66/   19.04ms nodes= proven=1.0
+strong n=1000 DP (exact)              gap med/max=0.000/0.000% t med/max=   43.38/   59.75ms nodes= proven=1.0
+strong n=1000 greedy ratio            gap med/max=0.163/0.197% t med/max=    0.23/    0.28ms nodes= proven=0.0
+strong n=1000 greedy+best single      gap med/max=0.163/0.197% t med/max=    0.23/    0.30ms nodes= proven=0.0
+strong n=1000 Branch&Bound (3M-node cap) gap med/max=0.050/0.085% t med/max= 2062.14/ 2277.89ms nodes=3000684 proven=0.0
+strong n=1000 ILP (HiGHS)             gap med/max=0.000/0.000% t med/max=   21.63/   23.69ms nodes= proven=1.0
+{
+ "instances": 200,
+ "machines": 3,
+ "jobs": 10,
+ "lpt_over_opt_mean": 1.0250925768404047,
+ "lpt_over_opt_max": 1.1428571428571428,
+ "fraction_lpt_optimal": 0.41,
+ "theoretical_bound": 1.222222222222222,
+ "worst_case_instance_m2": {
+  "lpt": 7.0,
+  "opt": 6.0,
+  "ratio": 1.1666666666666667,
+  "bound": 1.1666666666666665
+ },
+ "scaling": [
+  {
+   "n": 20,
+   "m": 4,
+   "lpt": 251.0,
+   "ilp": 248.0,
+   "ilp_proven_optimal": true,
+   "lower_bound": 248.0,
+   "t_lpt": 2.5780999976632302e-05,
+   "t_ilp": 0.08411886600003982
+  },
+  {
+   "n": 40,
+   "m": 5,
+   "lpt": 379.0,
+   "ilp": 379.0,
+   "ilp_proven_optimal": true,
+   "lower_bound": 378.8,
+   "t_lpt": 4.244800004471472e-05,
+   "t_ilp": 0.27267038599995885
+  },
+  {
+   "n": 80,
+   "m": 8,
+   "lpt": 514.0,
+   "ilp": 511.0,
+   "ilp_proven_optimal": true,
+   "lower_bound": 510.875,
+   "t_lpt": 7.885399998031062e-05,
+   "t_ilp": 3.399203053000008
+  }
+ ]
+}
+{
+ "n10": {
+  "edges": 15,
+  "optimal_cut": 13.0,
+  "n_optimal_bitstrings": 2,
+  "ising_const": -7.5,
+  "local_search": {
+   "mean_ratio": 1.0,
+   "success_rate": 1.0,
+   "evals_per_run": "20 restarts x steps (~20-100 energy evals each)"
+  },
+  "simulated_annealing": {
+   "mean_ratio": 1.0,
+   "success_rate": 1.0,
+   "flips_proposed_per_run": 2000
+  },
+  "brute_force_evals": 1024,
+  "seeds": 30
+ },
+ "n20": {
+  "edges": 30,
+  "optimal_cut": 26.0,
+  "n_optimal_bitstrings": 32,
+  "ising_const": -15.0,
+  "local_search": {
+   "mean_ratio": 1.0,
+   "success_rate": 1.0,
+   "evals_per_run": "20 restarts x steps (~20-100 energy evals each)"
+  },
+  "simulated_annealing": {
+   "mean_ratio": 1.0,
+   "success_rate": 1.0,
+   "flips_proposed_per_run": 4000
+  },
+  "brute_force_evals": 1048576,
+  "seeds": 30
+ },
+ "n60_no_exact_reference": {
+  "best_known_from_runs": 82.0,
+  "ls_mean": 80.6,
+  "ls_std": 0.7118052168020873,
+  "sa_mean": 81.1,
+  "sa_std": 0.7461009761866463,
+  "note": "optimum unknown; 'best known' is only the best value any run found"
+ }
+}
+{'k': 4, 'P': 0.0, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 6, 'exact_feasible': False, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -1.950117984544515, 'fixedT_hits_global_min': 0.6, 'fixedT_feasible': 0.0, 'scaledT_hits_global_min': 0.5, 'scaledT_feasible': 0.0}
+{'k': 4, 'P': 0.05, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 5, 'exact_feasible': False, 'exact_unpenalised_obj': -2.113853307960226, 'constrained_optimum': -1.950117984544515, 'fixedT_hits_global_min': 0.5333333333333333, 'fixedT_feasible': 0.0, 'scaledT_hits_global_min': 0.6333333333333333, 'scaledT_feasible': 0.0}
+{'k': 4, 'P': 0.1, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 5, 'exact_feasible': False, 'exact_unpenalised_obj': -2.113853307960226, 'constrained_optimum': -1.950117984544515, 'fixedT_hits_global_min': 0.5666666666666667, 'fixedT_feasible': 0.0, 'scaledT_hits_global_min': 0.4, 'scaledT_feasible': 0.0}
+{'k': 4, 'P': 0.3, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 4, 'exact_feasible': True, 'exact_unpenalised_obj': -1.950117984544515, 'constrained_optimum': -1.950117984544515, 'fixedT_hits_global_min': 0.26666666666666666, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.2, 'scaledT_feasible': 1.0}
+{'k': 4, 'P': 1.0, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 4, 'exact_feasible': True, 'exact_unpenalised_obj': -1.950117984544515, 'constrained_optimum': -1.950117984544515, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.13333333333333333, 'scaledT_feasible': 1.0}
+{'k': 4, 'P': 3.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 4, 'exact_feasible': True, 'exact_unpenalised_obj': -1.950117984544515, 'constrained_optimum': -1.950117984544515, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 4, 'P': 10.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 4, 'exact_feasible': True, 'exact_unpenalised_obj': -1.950117984544515, 'constrained_optimum': -1.950117984544515, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 4, 'P': 30.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 4, 'exact_feasible': True, 'exact_unpenalised_obj': -1.950117984544515, 'constrained_optimum': -1.950117984544515, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 6, 'P': 0.0, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 6, 'exact_feasible': True, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -2.177027911518068, 'fixedT_hits_global_min': 0.6, 'fixedT_feasible': 0.6666666666666666, 'scaledT_hits_global_min': 0.5, 'scaledT_feasible': 0.5333333333333333}
+{'k': 6, 'P': 0.05, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 6, 'exact_feasible': True, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -2.177027911518068, 'fixedT_hits_global_min': 0.3, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.2, 'scaledT_feasible': 1.0}
+{'k': 6, 'P': 0.1, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 6, 'exact_feasible': True, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -2.177027911518068, 'fixedT_hits_global_min': 0.16666666666666666, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.16666666666666666, 'scaledT_feasible': 1.0}
+{'k': 6, 'P': 0.3, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 6, 'exact_feasible': True, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -2.177027911518068, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.03333333333333333, 'scaledT_feasible': 1.0}
+{'k': 6, 'P': 1.0, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 6, 'exact_feasible': True, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -2.177027911518068, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 6, 'P': 3.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 6, 'exact_feasible': True, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -2.177027911518068, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.03333333333333333, 'scaledT_feasible': 1.0}
+{'k': 6, 'P': 10.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 6, 'exact_feasible': True, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -2.177027911518068, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 6, 'P': 30.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 6, 'exact_feasible': True, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -2.177027911518068, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 10, 'P': 0.0, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 6, 'exact_feasible': False, 'exact_unpenalised_obj': -2.1770279115180684, 'constrained_optimum': -1.5969330607673216, 'fixedT_hits_global_min': 0.6, 'fixedT_feasible': 0.0, 'scaledT_hits_global_min': 0.5, 'scaledT_feasible': 0.0}
+{'k': 10, 'P': 0.05, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 8, 'exact_feasible': False, 'exact_unpenalised_obj': -2.0671366291368667, 'constrained_optimum': -1.5969330607673216, 'fixedT_hits_global_min': 0.43333333333333335, 'fixedT_feasible': 0.0, 'scaledT_hits_global_min': 0.3333333333333333, 'scaledT_feasible': 0.0}
+{'k': 10, 'P': 0.1, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 9, 'exact_feasible': False, 'exact_unpenalised_obj': -1.8655092063748766, 'constrained_optimum': -1.5969330607673216, 'fixedT_hits_global_min': 0.13333333333333333, 'fixedT_feasible': 0.0, 'scaledT_hits_global_min': 0.1, 'scaledT_feasible': 0.0}
+{'k': 10, 'P': 0.3, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 10, 'exact_feasible': True, 'exact_unpenalised_obj': -1.5969330607673218, 'constrained_optimum': -1.5969330607673216, 'fixedT_hits_global_min': 0.3333333333333333, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.26666666666666666, 'scaledT_feasible': 1.0}
+{'k': 10, 'P': 1.0, 'P_exceeds_sufficient_bound': False, 'exact_n_selected': 10, 'exact_feasible': True, 'exact_unpenalised_obj': -1.5969330607673218, 'constrained_optimum': -1.5969330607673216, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 10, 'P': 3.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 10, 'exact_feasible': True, 'exact_unpenalised_obj': -1.5969330607673218, 'constrained_optimum': -1.5969330607673216, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 10, 'P': 10.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 10, 'exact_feasible': True, 'exact_unpenalised_obj': -1.5969330607673218, 'constrained_optimum': -1.5969330607673216, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.0, 'scaledT_feasible': 1.0}
+{'k': 10, 'P': 30.0, 'P_exceeds_sufficient_bound': True, 'exact_n_selected': 10, 'exact_feasible': True, 'exact_unpenalised_obj': -1.5969330607673218, 'constrained_optimum': -1.5969330607673216, 'fixedT_hits_global_min': 0.0, 'fixedT_feasible': 1.0, 'scaledT_hits_global_min': 0.03333333333333333, 'scaledT_feasible': 1.0}
+{
+ "n": 20,
+ "lam": 0.2,
+ "unconstrained_optimum_size": 6,
+ "sufficient_penalty_bound": 2.756737449706325,
+ "k6": {
+  "exact_selection": [
+   0,
+   1,
+   2,
+   4,
+   6,
+   7
+  ],
+  "exact_value": -2.177027911518068,
+  "greedy_selection": [
+   0,
+   1,
+   2,
+   4,
+   6,
+   7
+  ],
+  "greedy_value": -2.1770279115180684,
+  "greedy_equals_exact": true,
+  "cv_acc": {
+   "exact QUBO optimum": [
+    0.9314547430523211,
+    0.024445946771589715
+   ],
+   "top-6 relevance only": [
+    0.912156497438286,
+    0.0350264429570301
+   ],
+   "random 6 (20 draws, mean/std over draws)": [
+    0.9161923614345598,
+    0.015161161512076676
+   ],
+   "all 20": [
+    0.95960254618848,
+    0.011844124657838963
+   ]
+  }
+ },
+ "greedy_vs_exact_objective_by_k": {
+  "4": {
+   "greedy": -1.9485073738894498,
+   "exact": -1.950117984544515
+  },
+  "6": {
+   "greedy": -2.1770279115180684,
+   "exact": -2.177027911518068
+  },
+  "10": {
+   "greedy": -1.5661604811745533,
+   "exact": -1.5969330607673216
+  }
+ },
+ "swap_move_SA_no_penalty": {
+  "4": {
+   "hits_constrained_optimum": 1.0,
+   "all_feasible": true,
+   "energy_evals": 2000
+  },
+  "6": {
+   "hits_constrained_optimum": 0.9333333333333333,
+   "all_feasible": true,
+   "energy_evals": 2000
+  },
+  "10": {
+   "hits_constrained_optimum": 0.9333333333333333,
+   "all_feasible": true,
+   "energy_evals": 2000
+  }
+ }
+}
+total 120s

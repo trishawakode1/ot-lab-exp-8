@@ -1,0 +1,17 @@
+{
+ "hvp_error_fd_vs_exact": 9.64917908993908e-11,
+ "true_Fisher_vs_Hessian_(l2 removed)_rel_err": 1.638838002085513e-17,
+ "empirical_Fisher_vs_true_Fisher_rel_err": 0.6426919145915498,
+ "diag_approx_rel_err": 0.8691720922085246,
+ "condition_number_H": 494.315565928943,
+ "lowrank_1_rel_err": 0.5810261552167517,
+ "lowrank_3_rel_err": 0.3711309448383642,
+ "lowrank_5_rel_err": 0.21040486879499187,
+ "lowrank_10_rel_err": 0.0616671719757491,
+ "gap_after_60_iters": {
+  "plain_GD": 0.0029850778781451565,
+  "diagonal_Hessian_precond": 0.0010958127315937038,
+  "diagonal_empirical_Fisher_precond": 0.0003429588280353599,
+  "Newton": 0.0
+ }
+}

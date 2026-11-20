@@ -1,0 +1,46 @@
+{
+ "n10": {
+  "edges": 15,
+  "optimal_cut": 13.0,
+  "n_optimal_bitstrings": 2,
+  "ising_const": -7.5,
+  "local_search": {
+   "mean_ratio": 1.0,
+   "success_rate": 1.0,
+   "evals_per_run": "20 restarts x steps (~20-100 energy evals each)"
+  },
+  "simulated_annealing": {
+   "mean_ratio": 1.0,
+   "success_rate": 1.0,
+   "flips_proposed_per_run": 2000
+  },
+  "brute_force_evals": 1024,
+  "seeds": 30
+ },
+ "n20": {
+  "edges": 30,
+  "optimal_cut": 26.0,
+  "n_optimal_bitstrings": 32,
+  "ising_const": -15.0,
+  "local_search": {
+   "mean_ratio": 1.0,
+   "success_rate": 1.0,
+   "evals_per_run": "20 restarts x steps (~20-100 energy evals each)"
+  },
+  "simulated_annealing": {
+   "mean_ratio": 1.0,
+   "success_rate": 1.0,
+   "flips_proposed_per_run": 4000
+  },
+  "brute_force_evals": 1048576,
+  "seeds": 30
+ },
+ "n60_no_exact_reference": {
+  "best_known_from_runs": 82.0,
+  "ls_mean": 80.6,
+  "ls_std": 0.7118052168020873,
+  "sa_mean": 81.1,
+  "sa_std": 0.7461009761866463,
+  "note": "optimum unknown; 'best known' is only the best value any run found"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "n": 20,
+ "lam": 0.2,
+ "unconstrained_optimum_size": 6,
+ "sufficient_penalty_bound": 2.756737449706325,
+ "k6": {
+  "exact_selection": [
+   0,
+   1,
+   2,
+   4,
+   6,
+   7
+  ],
+  "exact_value": -2.177027911518068,
+  "greedy_selection": [
+   0,
+   1,
+   2,
+   4,
+   6,
+   7
+  ],
+  "greedy_value": -2.1770279115180684,
+  "greedy_equals_exact": true,
+  "cv_acc": {
+   "exact QUBO optimum": [
+    0.9314547430523211,
+    0.024445946771589715
+   ],
+   "top-6 relevance only": [
+    0.912156497438286,
+    0.0350264429570301
+   ],
+   "random 6 (20 draws, mean/std over draws)": [
+    0.9161923614345598,
+    0.015161161512076676
+   ],
+   "all 20": [
+    0.95960254618848,
+    0.011844124657838963
+   ]
+  }
+ },
+ "greedy_vs_exact_objective_by_k": {
+  "4": {
+   "greedy": -1.9485073738894498,
+   "exact": -1.950117984544515
+  },
+  "6": {
+   "greedy": -2.1770279115180684,
+   "exact": -2.177027911518068
+  },
+  "10": {
+   "greedy": -1.5661604811745533,
+   "exact": -1.5969330607673216
+  }
+ },
+ "swap_move_SA_no_penalty": {
+  "4": {
+   "hits_constrained_optimum": 1.0,
+   "all_feasible": true,
+   "energy_evals": 2000
+  },
+  "6": {
+   "hits_constrained_optimum": 0.9333333333333333,
+   "all_feasible": true,
+   "energy_evals": 2000
+  },
+  "10": {
+   "hits_constrained_optimum": 0.9333333333333333,
+   "all_feasible": true,
+   "energy_evals": 2000
+  }
+ }
+}
